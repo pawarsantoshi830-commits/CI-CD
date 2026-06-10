@@ -1,0 +1,21 @@
+-----*** Using Git ***-----
+$ sudo apt update
+$ sudo apt install git
+$ git --version
+>> Initialise local git repository
+$ mkdir gitdemo
+$ cd gitdemo
+$ git init
+$ nano file1
+this is first line of code
+$ git status
+>> Put code to staging Area
+$ git add file1
+$ git status
+>> Initialise Commit
+$ git config user.name "Aasem Quazi"
+$ git config user.email "aasem@databinaries.com"
+$ git commit
+>> Make changes
+$ nano file1
+this is second line of code
